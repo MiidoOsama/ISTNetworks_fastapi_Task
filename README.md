@@ -28,3 +28,13 @@ To run tests, run the following command
 ```bash
  uvicorn main:app --host 0.0.0.0 --port 8080 --reload
 ```
+
+## Task 2 
+
+![Alt text](https://www5.0zz0.com/2024/08/30/13/397941418.jpg)
+
+## Running 
+```bash
+  docker run -d -p 8000:8000 my-fastapi-app:v1.0
+```
+
