@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: miido/fastapi-app:v1.1  
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - SQLITE_DB_PATH=/app/test.db
